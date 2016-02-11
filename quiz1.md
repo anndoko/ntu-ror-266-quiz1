@@ -63,34 +63,31 @@
 	```
 
 7. 以下這段程式碼：
-```ruby
-((1 > 3)&&(true == true))||(!!!false)
-```
+	```ruby
+	((1 > 3)&&(true == true))||(!!!false)
+	```
 會執行出什麼結果？ 請試試不用 irb 算出結果
-
 	#### ANS: 
 	```
 	true
 	```
 
 8. 請問 binding.pry 是什麼？ 要如何使用它？
-
 	#### ANS: 
 	```
 	ruby 的 debugger 套件，在程式碼中加入 binding.pry，即可在執行的時候攔截。
 	```
 
 9. 下面的一段程式碼，請嘗試用其他方法把 if...else...end 簡化成一行
-```ruby
-var = 5
+	```ruby
+	var = 5
 
-if var >= 5
-  return "var is greater than or equal to 5"
-else
-  return "var is less than 5"
-end
-```
-
+	if var >= 5
+	  return "var is greater than or equal to 5"
+	else
+	  return "var is less than 5"
+	end
+	```
 	#### ANS:
 	```ruby
 	var >= 5? "var is greater than or equal to 5" : "var is less than 5"
